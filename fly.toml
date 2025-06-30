@@ -1,0 +1,8 @@
+app = "app-fw-caf"
+
+[[services]]
+  internal_port = 5000
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 5000
